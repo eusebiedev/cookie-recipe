@@ -9,5 +9,12 @@ window.onload = function() {
   body.style.backgroundColor = "white";
   body.style.color = "black";
   };
-
+  let image = document.querySelector("image");
+  button3.onclick = function () { 
+  document.getElementById("image").style.display = "none";
+  }
+  button4.onclick = function () { 
+  document.getElementById("image").style.display = "";
+    }
+  
 };
